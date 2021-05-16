@@ -1,0 +1,88 @@
+h1 {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    margin-left: 40%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+body {
+    background-color: coral;
+    background-image: url(https://images.app.goo.gl/rGQ6nzjpSXoz1Zy88);
+}
+
+.question_Box {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    margin: 15% 0% 0% 5%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+input[type="button"] {
+    max-width: 390px;
+    background: rgb(3, 255, 213);
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.hint_Ans {
+    float: right;
+    
+}
+
+.hint {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    margin: 20% 5% 0% 5%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+button {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 5px;
+    margin-left: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.about {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 5px;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+    max-width: 350px;
+}
+
+
+
+
+
+   
