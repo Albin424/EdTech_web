@@ -1,171 +1,388 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Quizzz...</title>
-    <h1>Quizzz...</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EdTech Home Page</title>
 
-</head>
-<body>
-    <link rel="stylesheet" href="funJava.css">
-    <div class="about">
-        <p>Hellow!</p>
-        <p>Wlcome to this Quiz page !!</p>
-        <p><b>About:</b></p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+        <link rel="stylesheet" href="EdTech Main.css">
+
+    </head>
+    <body>
+
+    <header>
+
+    <a href="#" class="logo"><i class="fas fa-graduation-cap"></i>EdTechS</a>
+
+    <nav class="navbar">
         <ul>
-            <li>Here you can find 10 questions.</li>
-            <li>You can write as many as you want.</li>
-            <li>No negative marks are there.</li>
-            <li>1 Mark for each question.</li>
-            <li>If you fint hard to answer the question you can use "!" in the question for clues and answers.</li>
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#teacher">Instructors</a></li>
+            <li><a href="#course">course</a></li>
+            <li><a href="#review">review</a></li>
+            <li><a href="#login">login</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
-    </div>
-    <div class="hint_Ans" id="demo0" style="display: none;">
-        <div class="hint">
-            <img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.25.30 PM.jpeg">
-            Karnata leads in states by producing over 7,100KV electricity from solar energy 
+    </nav>
+
+    <div class="fas fa-bars"></div>
+
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>learn online form home</h1>
+            <p></p>
+            <a href="#"><button>discover more</button></a>
         </div>
-    </div> 
-    <div class="question_Box">
-        <form name="myForm0">
-            <div><button type="button" onclick="playHint0()">!</button><p><b>Q.1</b></p><p>Which one of the follwoing states is leading producer of solar energy in India?</p><br><br>
-                <input type="radio" name="question1" value="Karnataka"> Karnataka<br>
-                <input type="radio" name="question1" value="Kerala"> Kerala<br>
-                <input type="radio" name="question1" value="Tamilnadu"> Tamilnadu<br>
-                <input type="radio" name="question1" value="Goa"> Goa<br>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>trending courses</h3>
+                <p>We are providing you with world best 'new trending courses'!</p>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo1" style="display: none;">
-        <div class="hint" style="margin-top: 20%;"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.25.53 PM.jpeg"> Mendeleev is an Russian chemist who classified the elements to periodic table</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm1">
-            <div><button type="button" onclick="playHint1()">!</button><p><b>Q.2</b></p><p>Who found periodic table?</p><br><br>
-                <input type="radio" name="question2" value="Dimitri Mendeleev"> Dimitri Mendeleev<br>
-                <input type="radio" name="question2" value="George Cuvier"> Geoege Cuvier<br>
-                <input type="radio" name="question2" value="Pierre Curie"> Pierre Curie<br>
-                <input type="radio" name="question2" value="Alfred Wegener"> Alfred Wegener<br>
+            <div class="box">
+                <i class="fas fa-fire"></i>
+                <h3>free trial</h3>
+                <p>Providing you to experience our free 'Trial'!</p>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo2" style="display: none;">
-        <div class="hint">WHO named the diseases caused by the novel corona virus as COVID-19</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm2">
-            <div><button type="button" onclick="playHint2()">!</button><p><b>Q.3</b></p><p>WHO on 11 February,2020 announced an offical nme for the disseases that is causimg the 2019 novel coronavirus outbreak? What is the name of the diseases?</p><br><br>
-                <input type="radio" name="question3" value="COVID-19"> COVID-19<br>
-                <input type="radio" name="question3" value="COvn-19"> COvn-19<br>
-                <input type="radio" name="question3" value="COnV-20"> COnV-20<br>
-                <input type="radio" name="question3" value="COvID-19"> COvID-19<br>
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <h3>certifications</h3>
+                <p>Providing with all type of valuble and shareable 'Certificates'!</p>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo3" style="display: none;">
-        <div class="hint">India sucessfully conducted the first ASAT missile  test on 27 March, 2019 destroying low earth orbit satellite in space by using a missile thet convert a distance of 300km to engage the target</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm3">
-            <div><button type="button" onclick="playHint3()">!</button><p><b>Q.4</b></p><p>Which of the following anti-satellite missile is tested in India on 27 March, 2019?</p><br><br>
-                <input type="radio" name="question4" value="Mission Antrish"> Mission Antrish<br>
-                <input type="radio" name="question4" value="Mission Gagan"> Mission Gagan<br>
-                <input type="radio" name="question4" value="Mission Sakthi"> Mission Sakthi<br>
-                <input type="radio" name="question4" value="Mission Destruction"> Mission Destruction<br>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about us</h1>
+        <h3 class="title">start your journey with us</h3>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>start your journey to a better life with our practical courses</h3>
+                <p>Welcome to EDTECH, your number one source for education. We're dedicated to providing you the very best courses, with an emphasis on quality , accessibility and assurance.(Made for a Competition).                                                                                Founded in 2021 by Navneeth S, EDTECH has come a long way from its beginnings in India. When Navneeth first started out, his passion for "education for all" which drove him to start his own business.
+                    We hope you enjoy our products as much as we enjoy offering them to you.!</p>
+                <a href="#"><button>learn more</button></a>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo4" style="display: none;">
-        <div class="hint"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.20.55 PM.jpeg">In 2018 this project is used in chat-bot platform for quries and athor function including tickets through the help of AI</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm4">
-            <div><button type="button" onclick="playHint4()">!</button><p><b>Q.5</b></p><p>'ASK DISHA' is an online chat-bot of which Indian organization?</p><br><br>
-                <input type="radio" name="question5" value="IRCTC-Indian Railway catering and Tourism Corporation"> IRCTC-Indian Railway catering and Tourism Corporation<br>
-                <input type="radio" name="question5" value="NPCI-National payment coroperation of India"> NPCI-National payment coroperation of India<br>
-                <input type="radio" name="question5" value="RBI"> RBI- Reserve Bank of India<br>
-                <input type="radio" name="question5" value="SEBI"> SEBI- Securities Exchange Board od India <br>
+            <div class="image">
+                <img src="images/about-img.svg" alt="">
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo5" style="display: none;">
-        <div class="hint"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.25.43 PM.jpeg"> J Baba who is also the director of BARC and TIRF is known as thw Father of nuclear programme</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm5">
-            <div><button type="button" onclick="playHint5()">!</button><p><b>Q.6</b></p><p>Who is known as father of Indian Nuclear Programme?</p><br><br>
-                <input type="radio" name="question6" value="Apj"> APJ AbdualKalam<br>
-                <input type="radio" name="question6" value="RR"> Raja Remenan<br>
-                <input type="radio" name="question6" value="HJB"> Homi J Baba<br>
-                <input type="radio" name="question6" value="VS"> Vikram Sarabai<br>
+        </div>
+
+        </section>
+
+        <section id="teacher" class="teacher">
+
+        <h1 class="heading">our tutors</h1>
+        <h3 class="title">meet professional trainers</h3>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/img1.jpg" alt="">
+                <h3>Pr.Edward</h3>
+                <p>i love teaching</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo6" style="display: none;">
-        <div class="hint"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.26.21 PM.jpeg"> is tiny animal also known as Water Bear is currently polluting the moon surfaces</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm6">
-            <div><button type="button" onclick="playHint6()">!</button><p><b>Q.7</b></p><p>Which of following creature is linked with moon and pollution?</p><br><br>
-                <input type="radio" name="question7" value="Tar"> Tardigrades<br>
-                <input type="radio" name="question7" value="Water"> Water Bears<br>
-                <input type="radio" name="question7" value="AB"> Both A and B<br>
-                <input type="radio" name="question7" value="NAB"> Nither A Nor B<br>
+            <div class="card">
+                <img src="images/img2.jpg" alt="">
+                <h3>pr.Willson</h3>
+                <p>teaching is everything</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo7" style="display: none;">
-        <div class="hint">Big Bang theory is the the theory describing the orgin of universe from singularity</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm7">
-            <div><button type="button" onclick="playHint7()">!</button><p><b>Q.8</b></p><p>Which of the following theory discribes orgin of universe?</p><br><br>
-                <input type="radio" name="question8" value="Nebular"> Nebular Theory<br>
-                <input type="radio" name="question8" value="Binary"> Binart Theory<br>
-                <input type="radio" name="question8" value="BigB"> Big Bang Theory<br>
-                <input type="radio" name="question8" value="PT"> Planetesimal Theory<br>
+            <div class="card">
+                <img src="images/img3.jpg" alt="">
+                <h3>Pr.andrew</h3>
+                <p>i love teaching</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo8" style="display: none;">
-        <div class="hint"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.25.19 PM.jpeg"> based American areospace manufacturing company SpaceX is the first privet company to lanch astrunaunts on space</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm8">
-            <div><button type="button" onclick="playHint8()">!</button><p><b>Q.9</b></p><p> Which is the first privet company to send astronaunts to space?</p><br><br>
-                <input type="radio" name="question9" value="Bo"> Blue Orgin<br>
-                <input type="radio" name="question9" value="Tesla"> Tesla<br>
-                <input type="radio" name="question9" value="SpaceX"> SpaceX<br>
-                <input type="radio" name="question9" value="Orbit"> Orbital<br>
+            <div class="card">
+                <img src="images/img4.jpg" alt="">
+                <h3>Pr.Aldren</h3>
+                <p>teaching is everything</p>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
             </div>
-        </form>
-    </div>
 
-    <div class="hint_Ans" id="demo9" style="display: none;">
-        <div class="hint"><img src="C:\Users\Albin Santhosh\Downloads\WhatsApp Image 2021-05-16 at 6.26.08 PM.jpeg"> 14 Septmber,2009 Russia formed the first floating nuclear plant which is named as "THE AKADEMIK LOMONOSOV"</div>
-    </div>
-    <div class="question_Box">
-        <form name="myForm9">
-            <div><button type="button" onclick="playHint9()">!</button><p><b>Q.10</b></p><p> Which is the first country to dovelope Floating Nuclear Plant?</p><br><br>
-                <input type="radio" name="question10" value="Ind"> India<br>
-                <input type="radio" name="question10 value="Chi"> China<br>
-                <input type="radio" name="question10 value="USA"> USA<br>
-                <input type="radio" name="question10"value="Russia"> Russia<br>
+        </div>
+
+    </section>
+
+    <section id="course" class="course">
+
+        <h1 class="heading">our courses</h1>
+        <h3 class="title">upgrade your skills with newest courses</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fab fa-html5"></i>
+                <h3>html5</h3>
+                <p> Learn HTML and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
             </div>
-        </form>
-    </div>
+
+            <div class="box">
+                <i class="fab fa-css3-alt"></i>
+                <h3>css3</h3>
+                <p> Learn CSS and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-js-square"></i>
+                <h3>javascript</h3>
+                <p> Learn Javascript and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>web development</h3>
+                <p> Learn Web developement and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>seo marketing</h3>
+                <p> Learn SEO marketing and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>graphic design</h3>
+                <p> Learn Graphics design and get certified by industrial experts</p>
+                <button type="submit" onclick="myfunction()">Buy Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="payment" id="payment">
+
+        <div class="app-container">
+            <div class="top-box">
+              <p><button class="left-icon" onclick="myfunction1()"><b>&#x2190</b></button> CHECKOUT<span class="right-icon">&#xb7;&#xb7;&#xb7;</span></p>
+            </div>
+            <div class="middle-box">
+              <h1>10<span>$</span></h1>
+              <p>Pay to EdTech Online learning Platform</p>
+            </div>
+            <div class="bottom-box">
+              <button type="button" class="payment-opt-btn">Pay with Paypal</button>
+              <button type="button" class="payment-opt-btn">Net Banking</button>
+              <div class="card-dti">
+                <p>Pay with Debit Card\Credit Card</p><br>
+                <div class="card-num">
+                  <label>Card Number</label><br>
+                  <input type="text" class="card-num-field" placeholder="xxxx-xxxx">
+              </div>
+              
+              <div class="card-date">
+                  <label>Expiry Date</label><br>
+                  <input type="text" class="date-field" placeholder="mm">
+                  <input type="text" class="date-field" placeholder="yyyy">
+              </div>
+              <div class="card-password">
+                  <label>Password</label><br>
+                  <input type="password" class="password-field" placeholder="UPI No.">
+              </div>
+              <div class="card-name">
+                  <label>Card Holder Name</label><br>
+                  <input type="text" class="name-field" placeholder="Username">
+                  <button type="button" class="pay-btn">Pay Now</button>
+              </div>
+            </div>
+              
+          </div>
+    </section>
+
+    <section id="review" class="review">
+
+        <h1 class="heading">students review</h1>
+        <h3 class="title">what our students says about us</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://images.app.goo.gl/ghuBufmzngznN4vZ9" alt="">
+                <h3>Edwin </h3>
+                <p>EDTECH offers motivated learners immense online educational variety If you are a student, a teacher with an active interest in e-learning, or a professional looking to develop your education and career prospects, EDTECH may well be of interest to you. This leading online training and university course elearning provider offers an almost unparalleled range of course titles.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pic2.jpg" alt="">
+                <h3>Ash </h3>
+                <p>EDTECH offers motivated learners immense online educational variety If you are a student, a teacher with an active interest in e-learning, or a professional looking to develop your education and career prospects, EDTECH may well be of interest to you. This leading online training and university course elearning provider offers an almost unparalleled range of course titles.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pic3.jpg" alt="">
+                <h3>Aleena</h3>
+                <p>EDTECH offers motivated learners immense online educational variety If you are a student, a teacher with an active interest in e-learning, or a professional looking to develop your education and career prospects, EDTECH may well be of interest to you. This leading online training and university course elearning provider offers an almost unparalleled range of course titles.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+        </section>
+
+        <section class="login" id="login">
+            <div id="loginbody">
+                <div class="container" id="container">
+                    <div class="form_container sign_up_container">
+                        <form action="#">
+                            <h1>Create Account</h1><br> 
+                            <div class="social_container">
+                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <input type="text" placeholder="Username" />
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="password"  />
+                            <button>Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="form_container sign_in_container">
+                        <form action="#">
+                            <h1>Sign In</h1><br>
+                            <div class="social_container">
+                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="password"  />
+                            <a href="#">Forgot your password?</a>
+                            <button>Sign In</button>
+                        </form>
+                    </div>
+                    <div class="overlay_container">
+                        <div class="overlay">
+                            <div class="'overlay_pannel overlay_left">
+                                <h1>Welcome Back!</h1>
+                                <p>
+                                    To keep connected please login with your personal info
+                                </p>
+                                <button class="ghost" id="signIn">Sign In</button>
+                            </div>
+                            <div class="overlay_pannel overlay_right">
+                                <h1>Hellow, Friend</h1>
+                                <p>Enter your personal details and start journy with us.</p>
+                                <button class="ghost" id="signUp">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+
+        <section class="contact" id="contact">
+
+        <h1 class="heading">contact us</h1>
+        <h3 class="title">we love conversatios, lets talk. Feel Free!!</h3>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <div class="form-container">
+                <form action="#">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Phone No">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="message">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+    </section>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <input type="button" name="" value="Submit" onclick="checkAns()">
-    <script src="funJava.js"></script>
-</body>
+    <script src="EdTech Main.js"></script>
 
+        
+    </body>
 </html>
